@@ -30,11 +30,11 @@ Tavily Search + Weather Tool
 
 ## Screenshots
 
-![Screenshot 1](images/Screenshot%202026-05-15%20at%206.05.33%20PM.png)
-![Screenshot 2](images/Screenshot%202026-05-15%20at%206.05.59%20PM.png)
-![Screenshot 3](images/Screenshot%202026-05-15%20at%206.06.13%20PM.png)
-![Screenshot 4](images/Screenshot%202026-05-15%20at%206.06.30%20PM.png)
-![Screenshot 5](images/Screenshot%202026-05-15%20at%206.06.41%20PM.png)
+![Screenshot 1](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.05.33%E2%80%AFPM.png)
+![Screenshot 2](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.05.59%E2%80%AFPM.png)
+![Screenshot 3](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.06.13%E2%80%AFPM.png)
+![Screenshot 4](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.06.30%E2%80%AFPM.png)
+![Screenshot 5](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.06.41%E2%80%AFPM.png)
 
 ## Setup
 
