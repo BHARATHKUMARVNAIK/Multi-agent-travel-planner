@@ -30,7 +30,7 @@ Tavily Search + Weather Tool
 
 ## Screenshots
 
-![Screenshot 1](/Users/bharathkumarvnaik/Downloads/programing/AI_projects/mutli_agent_system/images/Screenshot 2026-05-15 at 6.05.33 PM.png)
+![Screenshot 1](images/Screenshot 2026-05-15 at 6.05.33 PM.png)
 ![Screenshot 2](images/Screenshot%202026-05-15%20at%206.05.59%20PM.png)
 ![Screenshot 3](images/Screenshot%202026-05-15%20at%206.06.13%20PM.png)
 ![Screenshot 4](images/Screenshot%202026-05-15%20at%206.06.30%20PM.png)
