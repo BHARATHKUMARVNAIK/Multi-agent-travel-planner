@@ -28,6 +28,14 @@ User Input → Planner Agent → Researcher Agent → Writer Agent → Critic Ag
 Tavily Search + Weather Tool
 
 
+## Screenshots
+
+![Screenshot 1](images/Screenshot%202026-05-15%20at%206.05.33%20PM.png)
+![Screenshot 2](images/Screenshot%202026-05-15%20at%206.05.59%20PM.png)
+![Screenshot 3](images/Screenshot%202026-05-15%20at%206.06.13%20PM.png)
+![Screenshot 4](images/Screenshot%202026-05-15%20at%206.06.30%20PM.png)
+![Screenshot 5](images/Screenshot%202026-05-15%20at%206.06.41%20PM.png)
+
 ## Setup
 
 1. Clone the repo
