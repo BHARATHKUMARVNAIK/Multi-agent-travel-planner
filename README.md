@@ -30,7 +30,6 @@ Tavily Search + Weather Tool
 
 ## Screenshots
 
-![Screenshot 1](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.05.33%E2%80%AFPM.png)
 ![Screenshot 2](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.05.59%E2%80%AFPM.png)
 ![Screenshot 3](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.06.13%E2%80%AFPM.png)
 ![Screenshot 4](https://raw.githubusercontent.com/BHARATHKUMARVNAIK/Multi-agent-travel-planner/main/images/Screenshot%202026-05-15%20at%206.06.30%E2%80%AFPM.png)
