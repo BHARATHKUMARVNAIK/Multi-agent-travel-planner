@@ -12,9 +12,17 @@ from crewai_tools import TavilySearchTool
 #from langchain_groq import ChatGroq
 import os
 from dotenv import load_dotenv
-
+import streamlit as st
 from weather_tools import weather_tool
 
+
+
+def get_secret(key):
+    try:
+        return st.secrets[key]
+    except:
+        return os.getenv(key)
+    
 
 
 load_dotenv()
@@ -26,15 +34,21 @@ llm = LLM(
     # but the shorter context window makes it less ideal for this use case where we want to pass a lot of information between agents. We can experiment with it in future iterations.
 
     model =  os.getenv("GROQ_MODEL1") , # higher context, higher TPM limit
-    api_key = os.getenv("GROQ_API_KEY"),
+    api_key = get_secret("GROQ_API_KEY"),  # for streamlit deployment, use st.secrets to securely manage API keys. Make sure to add GROQ_API_KEY to your Streamlit secrets.
+    #api_key = os.getenv("GROQ_API_KEY"),
     temperature=0.3,
     max_tokens = 500 # cap each agent's response length 
+
+
+
+
     # When you have more tokens :  available, increase max_tokens for the researcher and writer agents to allow for more detailed responses and richer information to be passed between agents, which can lead to a more comprehensive and engaging itinerary.
     # You can also consider allowing the researcher to provide more flight options, hotel recommendations, and activities, and giving the writer more room to craft a compelling narrative in the itinerary.
 )
 
 search_tool = TavilySearchTool(
-    api_key = os.getenv("TAVILY_API_KEY"),
+    api_key = get_secret("TAVILY_API_KEY"), # for streamlit deployment, use st.secrets to securely manage API keys. Make sure to add TAVILY_API_KEY to your Streamlit secrets.
+    #api_key = os.getenv("TAVILY_API_KEY"),
     max_results = 2 # was returning 5+ results per search, each ~500 tokens
     # increase max_results if you have a higher token limit and want more information for the agents to work with, but be mindful of token usage and response times
 )
