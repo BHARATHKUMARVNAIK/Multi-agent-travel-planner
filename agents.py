@@ -16,7 +16,26 @@ import streamlit as st
 from weather_tools import weather_tool
 
 
+def get_secret(key):
+    try:
+        return st.secrets[key]
+    except:
+        return os.getenv(key)
 
+llm = LLM(
+    model="groq/llama-3.3-70b-versatile",    # ✅ hardcode this, never comment out
+    api_key=get_secret("GROQ_API_KEY"),
+    temperature=0.3,
+    max_tokens=400
+)
+
+search_tool = TavilySearchTool(
+    api_key=get_secret("TAVILY_API_KEY")
+)
+
+
+
+''' 
 def get_secret(key):
     try:
         return st.secrets[key]
@@ -46,12 +65,14 @@ llm = LLM(
     # You can also consider allowing the researcher to provide more flight options, hotel recommendations, and activities, and giving the writer more room to craft a compelling narrative in the itinerary.
 )
 
+
 search_tool = TavilySearchTool(
     api_key = get_secret("TAVILY_API_KEY"), # for streamlit deployment, use st.secrets to securely manage API keys. Make sure to add TAVILY_API_KEY to your Streamlit secrets.
     #api_key = os.getenv("TAVILY_API_KEY"),
     max_results = 2 # was returning 5+ results per search, each ~500 tokens
     # increase max_results if you have a higher token limit and want more information for the agents to work with, but be mindful of token usage and response times
 )
+'''
 
 
 
